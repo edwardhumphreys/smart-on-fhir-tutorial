@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="841a1d21-0599-4cd7-8716-19cd4ad046d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example-smart-app/src/js/example-smart-app.js" afterPath="$PROJECT_DIR$/example-smart-app/src/js/example-smart-app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -218,7 +217,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542040762319</updated>
-      <workItem from="1542040763787" duration="2161000" />
+      <workItem from="1542040763787" duration="2247000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1542115010616</created>
@@ -241,11 +240,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542115434719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Bootstrap 4 css &amp; js">
+      <created>1542119967831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542119967831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2161000" />
+    <option name="totallyTimeSpent" value="2247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
