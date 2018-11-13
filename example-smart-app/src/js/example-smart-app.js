@@ -34,8 +34,6 @@
           if (typeof patient.name[0] !== 'undefined') {
             fname = patient.name[0].given.join(' ');
             lname = patient.name[0].family.join(' ');
-
-            console.log(fname);
           }
 
           var height = byCodes('8302-2');
@@ -50,6 +48,8 @@
           p.fname = fname;
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
+
+          console.log(p.fname);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
