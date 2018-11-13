@@ -8,7 +8,6 @@
     }
 
     function onReady(smart)  {
-      console.log(smart);
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
@@ -23,6 +22,8 @@
                       }
                     }
                   });
+
+        console.log(obv);
 
         $.when(pt, obv).fail(onError);
 
