@@ -23,6 +23,7 @@
                     }
                   });
 
+        console.log("run 4")
         console.log(obv);
 
         $.when(pt, obv).fail(onError);
