@@ -8,6 +8,7 @@
     }
 
     function onReady(smart)  {
+      console.log(smart);
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
         var pt = patient.read();
@@ -48,8 +49,6 @@
           p.fname = fname;
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
-
-          console.log(p.fname);
 
           if (typeof systolicbp != 'undefined')  {
             p.systolicbp = systolicbp;
