@@ -45,6 +45,7 @@
           var ldl = byCodes('2089-1');
 
           var diabetesStatus = byCodes('33248-6');
+          console.log(diabetesStatus);
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
