@@ -44,6 +44,8 @@
           var hdl = byCodes('2085-9');
           var ldl = byCodes('2089-1');
 
+          var diabetesStatus = byCodes('33248-6');
+
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
           p.gender = gender;

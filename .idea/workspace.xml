@@ -30,8 +30,8 @@
       <file leaf-file-name="example-smart-app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example-smart-app/src/js/example-smart-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="365">
+              <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -219,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542040762319</updated>
-      <workItem from="1542040763787" duration="6179000" />
+      <workItem from="1542040763787" duration="6427000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1542115010616</created>
@@ -298,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542195170030</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added Bootstrap 4 css &amp; js">
+      <created>1542195985879</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542195985879</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6179000" />
+    <option name="totallyTimeSpent" value="6427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
@@ -383,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example-smart-app/src/js/example-smart-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="365">
+          <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
           <folding />
         </state>
       </provider>
