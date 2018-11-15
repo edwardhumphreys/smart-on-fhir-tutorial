@@ -9,7 +9,7 @@
 
     function onReady(smart)  {
 
-      console.log("v11");
+      console.log("v13");
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
@@ -25,14 +25,13 @@
                               'http://loinc.org|8480-6',
                               'http://loinc.org|2085-9',
                               'http://loinc.org|2089-1',
-                              'http://loinc.org|55284-4',
-                              'http://loinc.org|75315-2'
+                              'http://loinc.org|55284-4'
                             ]
                       }
                     }
                   });
 
-          var con = smart.api.fetchAll({
+          var con = smart.patient.api.fetchAll({
               type: 'Condition',
               query: {
                   code: {
