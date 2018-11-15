@@ -230,7 +230,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542040762319</updated>
-      <workItem from="1542040763787" duration="11400000" />
+      <workItem from="1542040763787" duration="11840000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1542115010616</created>
@@ -351,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542283494738</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added Bootstrap 4 css &amp; js">
+      <created>1542283533750</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1542283533750</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11400000" />
+    <option name="totallyTimeSpent" value="11840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
