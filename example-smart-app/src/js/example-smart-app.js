@@ -9,7 +9,7 @@
 
     function onReady(smart)  {
 
-      console.log("v9");
+      console.log("v10");
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
@@ -64,8 +64,6 @@
           var ldl = byCodes('2089-1');
 
           console.log(height);
-          var condition = byCodes('75315-2');
-          console.log(condition);
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
@@ -88,7 +86,7 @@
           ret.resolve(p);
         });
 
-        $.when(pt, obv).done(function(patient, con) {
+        $.when(pt, con).done(function(patient, con) {
           console.log(con);
         });
 
