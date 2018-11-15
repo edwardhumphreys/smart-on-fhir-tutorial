@@ -18,9 +18,16 @@
                     type: 'Observation',
                     query: {
                       code: {
-                        $or: ['http://loinc.org|33248-6','http://loinc.org|8302-2', 'http://loinc.org|8462-4',
-                            'http://loinc.org|8480-6', 'http://loinc.org|2085-9',
-                            'http://loinc.org|2089-1', 'http://loinc.org|55284-4']
+                        $or: [
+                              'http://loinc.org|33248-6',
+                              'http://loinc.org|8302-2',
+                              'http://loinc.org|8462-4',
+                              'http://loinc.org|8480-6',
+                              'http://loinc.org|2085-9',
+                              'http://loinc.org|2089-1',
+                              'http://loinc.org|55284-4',
+                              'http://loinc.org|75315-2'
+                            ]
                       }
                     }
                   });
@@ -47,8 +54,8 @@
           var ldl = byCodes('2089-1');
 
           console.log(height);
-          var diabetesStatus = byCodes('33248-6');
-          console.log(diabetesStatus);
+          var condition = byCodes('75315-2');
+          console.log(condition);
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
