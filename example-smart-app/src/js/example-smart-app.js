@@ -9,7 +9,7 @@
 
     function onReady(smart)  {
 
-      console.log("v10");
+      console.log("v11");
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
@@ -32,7 +32,7 @@
                     }
                   });
 
-          var con = smart.patient.api.fetchAll({
+          var con = smart.api.fetchAll({
               type: 'Condition',
               query: {
                   code: {
