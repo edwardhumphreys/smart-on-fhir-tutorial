@@ -9,7 +9,7 @@
 
     function onReady(smart)  {
 
-      console.log("v14");
+      console.log("v15");
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
@@ -30,17 +30,7 @@
                     }
                   });
 
-          var con = smart.patient.api.fetchAll({
-              type: 'Condition',
-              query: {
-                  code: {
-                      $or: []
-                  }
-              }
-          });
-
         $.when(pt, obv).fail(onError);
-        $.when(pt, con).fail(onError);
 
         $.when(pt, obv).done(function(patient, obv) {
           console.log(patient);
@@ -82,10 +72,6 @@
           p.ldl = getQuantityValueAndUnit(ldl[0]);
 
           ret.resolve(p);
-        });
-
-        $.when(pt, con).done(function(patient, con) {
-          console.log(con);
         });
 
       } else {
