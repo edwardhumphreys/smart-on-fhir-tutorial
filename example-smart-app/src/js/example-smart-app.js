@@ -9,12 +9,22 @@
 
     function onReady(smart)  {
 
-      console.log("v15");
+      console.log("v16");
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
         var pt = patient.read();
-        var obv = smart.patient.api.fetchAll({
+
+          // Search for the current patient's conditions
+          var con = smart.patient.api.search({type: 'Condition'});
+
+          $.when(pt, con).done(function(patient, con) {
+            console.log("Condition");
+            console.log(con);
+          });
+
+
+          var obv = smart.patient.api.fetchAll({
                     type: 'Observation',
                     query: {
                       code: {
