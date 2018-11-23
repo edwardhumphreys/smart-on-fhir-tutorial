@@ -19,12 +19,12 @@
   <body ng-controller="FHIRController">
     <div id='errors'>
     </div>
-    <div id="loading" class="spinner">
+    <div ng-show="loading" id="loading" class="spinner">
       <div class="bounce1"></div>
       <div class="bounce2"></div>
       <div class="bounce3"></div>
     </div>
-    <div id='holder' >
+    <div ng-show="!loading" id='holder'>
       <h2>Example-SMART-App - Updated 2</h2>
 
       <h2>Patient Resource</h2>
@@ -78,12 +78,12 @@
       <script src='./lib/js/cerner-smart-embeddable-lib-1.0.0.min.js'></script>
     -->
 
+    <!-- FHIR Client JS Library -->
+    <script src='./lib/js/fhir-client-v0.1.12.js'></script>
+
     <!-- Application-level javascript-->
     <!--<script src='./src/js/example-smart-app.js'></script>-->
     <script src='./src/js/example-angular-smart-app.js'></script>
-
-    <!-- FHIR Client JS Library -->
-    <script src='./lib/js/fhir-client-v0.1.12.js'></script>
 
     <!-- Prevent session bleed caused by single threaded embedded browser and sessionStorage API -->
     <!-- https://github.com/cerner/fhir-client-cerner-additions -->

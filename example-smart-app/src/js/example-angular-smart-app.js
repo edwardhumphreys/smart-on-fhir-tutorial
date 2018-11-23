@@ -31,7 +31,9 @@ exampleApp.factory('exampleFactory', ['$http','$q', function ($http, $q) {
 
 exampleApp.controller('FHIRController', function($window,$scope,$http,$q,exampleFactory) {
 
-    console.log("v21 Angular!");
+    console.log("v22 Angular!");
+
+    $scope.loading = true;
 
     var onError = function(){
         console.log('Loading error', arguments);
@@ -41,6 +43,7 @@ exampleApp.controller('FHIRController', function($window,$scope,$http,$q,example
         exampleFactory.getPatient(smart)
             .then(function(data) {
                 console.log(data);
+                $scope.loading = false;
             }, function(error) {
                 onError()
             });

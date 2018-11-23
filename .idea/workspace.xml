@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="841a1d21-0599-4cd7-8716-19cd4ad046d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example-smart-app/index.html" afterPath="$PROJECT_DIR$/example-smart-app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example-smart-app/src/js/example-angular-smart-app.js" afterPath="$PROJECT_DIR$/example-smart-app/src/js/example-angular-smart-app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example-smart-app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="-1373">
+              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -30,17 +31,17 @@
       <file leaf-file-name="example-smart-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example-smart-app/src/js/example-smart-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="259">
+              <caret line="139" column="25" lean-forward="true" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example-angular-smart-app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example-angular-smart-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example-smart-app/src/js/example-angular-smart-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="339">
               <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding />
             </state>
@@ -241,7 +242,7 @@
       <workItem from="1542040763787" duration="16084000" />
       <workItem from="1542619183464" duration="474000" />
       <workItem from="1542630313637" duration="411000" />
-      <workItem from="1542820801873" duration="7749000" />
+      <workItem from="1542820801873" duration="9436000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1542115010616</created>
@@ -474,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542977223062</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added Bootstrap 4 css &amp; js">
+      <created>1542977467251</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1542977467251</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24718000" />
+    <option name="totallyTimeSpent" value="26405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -710,26 +718,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example-smart-app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example-smart-app/src/js/example-smart-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="259">
+          <caret line="139" column="25" lean-forward="true" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example-smart-app/src/js/example-angular-smart-app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="339">
           <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example-smart-app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1373">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
       </provider>
