@@ -31,6 +31,8 @@ exampleApp.factory('exampleFactory', ['$http','$q', function ($http, $q) {
 
 exampleApp.controller('FHIRController', function($window,$scope,$http,$q,exampleFactory,$mdDialog,$filter) {
 
+    console.log("v20 Angular!");
+
     var onError = function(){
         console.log('Loading error', arguments);
     };
