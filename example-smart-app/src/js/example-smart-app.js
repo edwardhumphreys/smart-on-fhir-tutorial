@@ -9,7 +9,7 @@
 
     function onReady(smart)  {
 
-      console.log("v13");
+      console.log("v14");
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
@@ -19,7 +19,6 @@
                     query: {
                       code: {
                         $or: [
-                              'http://loinc.org|33248-6',
                               'http://loinc.org|8302-2',
                               'http://loinc.org|8462-4',
                               'http://loinc.org|8480-6',
