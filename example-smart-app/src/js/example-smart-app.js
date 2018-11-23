@@ -78,7 +78,7 @@
         // Search for the current patient's conditions
         var con = smart.patient.api.search({type: 'Condition'});
 
-        $.when(pt, con).done(function(patient, con) {
+        $.when(con).done(function(con) {
             console.log("Condition");
             console.log(con);
         });
