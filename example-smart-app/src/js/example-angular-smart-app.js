@@ -29,7 +29,7 @@ exampleApp.factory('exampleFactory', ['$http','$q', function ($http, $q) {
     };
 }]);
 
-exampleApp.controller('FHIRController', function($window,$scope,$http,$q,exampleFactory,$mdDialog,$filter) {
+exampleApp.controller('FHIRController', function($window,$scope,$http,$q,exampleFactory) {
 
     console.log("v20 Angular!");
 
