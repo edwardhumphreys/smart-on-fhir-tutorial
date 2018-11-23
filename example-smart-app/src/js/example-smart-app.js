@@ -9,20 +9,11 @@
 
     function onReady(smart)  {
 
-      console.log("v17");
+      console.log("v18");
 
       if (smart.hasOwnProperty('patient')) {
         var patient = smart.patient;
         var pt = patient.read();
-
-          // Search for the current patient's conditions
-          var con = smart.patient.api.search({type: 'Condition'});
-
-          $.when(pt, con).done(function(patient, con) {
-            console.log("Condition");
-            console.log(con);
-          });
-
 
           var obv = smart.patient.api.fetchAll({
                     type: 'Observation',
@@ -82,6 +73,14 @@
           p.ldl = getQuantityValueAndUnit(ldl[0]);
 
           ret.resolve(p);
+        });
+
+        // Search for the current patient's conditions
+        var con = smart.patient.api.search({type: 'Condition'});
+
+        $.when(pt, con).done(function(patient, con) {
+            console.log("Condition");
+            console.log(con);
         });
 
       } else {
